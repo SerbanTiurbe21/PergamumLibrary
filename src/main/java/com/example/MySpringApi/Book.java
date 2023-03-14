@@ -15,7 +15,6 @@ public class Book {
     }
 
     public Book(String title, String author) {
-        this.id = String.valueOf(Math.random()+1);
         this.title = title;
         this.author = author;
     }
